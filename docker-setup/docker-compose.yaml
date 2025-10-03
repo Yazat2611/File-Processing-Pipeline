@@ -1,0 +1,49 @@
+services:
+  minio:
+    image: minio/minio:latest
+    container_name: minio-server
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    environment:
+      MINIO_ROOT_USER: admin
+      MINIO_ROOT_PASSWORD : password123
+    command: server /data --console-address ":9001"
+    volumes:
+      - minio_storage:/data
+
+  sftpgo:
+    image: drakkan/sftpgo:latest
+    container_name: sftpgo-server
+    ports:
+      - "2022:2022"
+      - "8080:8080"
+    volumes:
+      - sftpgo_data:/var/lib/sftpgo
+
+  flink-jobmanager:
+    image: flink:1.18-scala_2.12
+    container_name: flink-jobmanager
+    ports:
+      - "8081:8081"
+    command: jobmanager
+    environment:
+        - |
+          FLINK_PROPERTIES=
+          jobmanager.rpc.address: flink-jobmanager
+
+  flink-taskmanager:
+    image: flink:1.18-scala_2.12
+    container_name : flink-taskmanager
+    depends_on:
+      - flink-jobmanager
+    command: taskmanager
+    environment:
+      - |
+        FLINK_PROPERTIES=
+        jobmanager.rpc.address: flink-jobmanager
+        taskmanager.numberOfTaskSlots: 2
+
+volumes:
+  minio_storage:
+  sftpgo_data:

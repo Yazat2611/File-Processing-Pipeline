@@ -1,0 +1,101 @@
+timestamp,product,category,quantity,price,customer_id,store_id,region
+2025-09-28 08:00:01,iPhone 15,Electronics,1,999.99,C001,S001,North
+2025-09-28 08:00:15,MacBook Pro,Electronics,1,2499.99,C002,S001,North
+2025-09-28 08:00:32,AirPods,Electronics,2,249.99,C003,S001,North
+2025-09-28 08:00:45,iPad,Electronics,1,799.99,C004,S002,South
+2025-09-28 08:01:01,Apple Watch,Electronics,1,399.99,C005,S002,South
+2025-09-28 08:01:15,Nike Shoes,Fashion,1,129.99,C006,S003,East
+2025-09-28 08:01:32,Adidas Jacket,Fashion,1,89.99,C007,S003,East
+2025-09-28 08:01:45,Samsung TV,Electronics,1,1299.99,C008,S004,West
+2025-09-28 08:02:01,Coffee Maker,Home,1,199.99,C009,S004,West
+2025-09-28 08:02:15,Blender,Home,1,149.99,C010,S005,North
+2025-09-28 08:02:32,Laptop Dell,Electronics,1,899.99,C011,S005,North
+2025-09-28 08:02:45,Gaming Chair,Furniture,1,299.99,C012,S006,South
+2025-09-28 08:03:01,Desk Lamp,Home,2,49.99,C013,S006,South
+2025-09-28 08:03:15,Bluetooth Speaker,Electronics,1,79.99,C014,S007,East
+2025-09-28 08:03:32,Wireless Mouse,Electronics,3,29.99,C015,S007,East
+2025-09-28 08:03:45,Mechanical Keyboard,Electronics,1,149.99,C016,S008,West
+2025-09-28 08:04:01,Monitor 4K,Electronics,1,399.99,C017,S008,West
+2025-09-28 08:04:15,Protein Powder,Health,2,39.99,C018,S009,North
+2025-09-28 08:04:32,Yoga Mat,Health,1,29.99,C019,S009,North
+2025-09-28 08:04:45,Water Bottle,Health,3,19.99,C020,S010,South
+2025-09-28 08:05:01,Running Shoes,Fashion,1,159.99,C021,S010,South
+2025-09-28 08:05:15,Jeans,Fashion,2,79.99,C022,S011,East
+2025-09-28 08:05:32,T-Shirt,Fashion,4,24.99,C023,S011,East
+2025-09-28 08:05:45,Hoodie,Fashion,1,59.99,C024,S012,West
+2025-09-28 08:06:01,Backpack,Fashion,1,89.99,C025,S012,West
+2025-09-28 08:06:15,Phone Case,Electronics,2,19.99,C026,S001,North
+2025-09-28 08:06:32,Charger Cable,Electronics,3,15.99,C027,S001,North
+2025-09-28 08:06:45,Power Bank,Electronics,1,49.99,C028,S002,South
+2025-09-28 08:07:01,Headphones,Electronics,1,199.99,C029,S002,South
+2025-09-28 08:07:15,Tablet Samsung,Electronics,1,499.99,C030,S003,East
+2025-09-28 08:07:32,Smart Watch,Electronics,1,299.99,C031,S003,East
+2025-09-28 08:07:45,Fitness Tracker,Health,1,129.99,C032,S004,West
+2025-09-28 08:08:01,Air Fryer,Home,1,119.99,C033,S004,West
+2025-09-28 08:08:15,Microwave,Home,1,189.99,C034,S005,North
+2025-09-28 08:08:32,Toaster,Home,1,79.99,C035,S005,North
+2025-09-28 08:08:45,Rice Cooker,Home,1,99.99,C036,S006,South
+2025-09-28 08:09:01,Vacuum Cleaner,Home,1,249.99,C037,S006,South
+2025-09-28 08:09:15,Office Chair,Furniture,1,199.99,C038,S007,East
+2025-09-28 08:09:32,Standing Desk,Furniture,1,399.99,C039,S007,East
+2025-09-28 08:09:45,Bookshelf,Furniture,1,149.99,C040,S008,West
+2025-09-28 08:10:01,Table Lamp,Home,2,39.99,C041,S008,West
+2025-09-28 08:10:15,Pillow,Home,4,29.99,C042,S009,North
+2025-09-28 08:10:32,Blanket,Home,2,49.99,C043,S009,North
+2025-09-28 08:10:45,Mattress,Furniture,1,799.99,C044,S010,South
+2025-09-28 08:11:01,Sofa,Furniture,1,1299.99,C045,S010,South
+2025-09-28 08:11:15,Coffee Table,Furniture,1,199.99,C046,S011,East
+2025-09-28 08:11:32,Dining Table,Furniture,1,599.99,C047,S011,East
+2025-09-28 08:11:45,Dining Chairs,Furniture,4,89.99,C048,S012,West
+2025-09-28 08:12:01,Wine Glasses,Home,6,19.99,C049,S012,West
+2025-09-28 08:12:15,Plates Set,Home,1,79.99,C050,S001,North
+2025-09-28 08:12:32,Cutlery Set,Home,1,49.99,C051,S001,North
+2025-09-28 08:12:45,Cooking Pan,Home,1,59.99,C052,S002,South
+2025-09-28 08:13:01,Pot Set,Home,1,99.99,C053,S002,South
+2025-09-28 08:13:15,Knife Set,Home,1,129.99,C054,S003,East
+2025-09-28 08:13:32,Cutting Board,Home,2,24.99,C055,S003,East
+2025-09-28 08:13:45,Mixer,Home,1,179.99,C056,S004,West
+2025-09-28 08:14:01,Food Processor,Home,1,199.99,C057,S004,West
+2025-09-28 08:14:15,Juicer,Home,1,149.99,C058,S005,North
+2025-09-28 08:14:32,Espresso Machine,Home,1,499.99,C059,S005,North
+2025-09-28 08:14:45,Tea Kettle,Home,1,39.99,C060,S006,South
+2025-09-28 08:15:01,French Press,Home,1,29.99,C061,S006,South
+2025-09-28 08:15:15,Travel Mug,Home,2,19.99,C062,S007,East
+2025-09-28 08:15:32,Water Filter,Home,1,79.99,C063,S007,East
+2025-09-28 08:15:45,Storage Containers,Home,6,14.99,C064,S008,West
+2025-09-28 08:16:01,Lunch Box,Home,3,24.99,C065,S008,West
+2025-09-28 08:16:15,Thermos,Home,1,34.99,C066,S009,North
+2025-09-28 08:16:32,Ice Maker,Home,1,299.99,C067,S009,North
+2025-09-28 08:16:45,Wine Cooler,Home,1,399.99,C068,S010,South
+2025-09-28 08:17:01,Mini Fridge,Home,1,199.99,C069,S010,South
+2025-09-28 08:17:15,Washing Machine,Home,1,599.99,C070,S011,East
+2025-09-28 08:17:32,Dryer,Home,1,499.99,C071,S011,East
+2025-09-28 08:17:45,Iron,Home,1,49.99,C072,S012,West
+2025-09-28 08:18:01,Ironing Board,Home,1,39.99,C073,S012,West
+2025-09-28 08:18:15,Hangers,Home,20,2.99,C074,S001,North
+2025-09-28 08:18:32,Laundry Basket,Home,2,19.99,C075,S001,North
+2025-09-28 08:18:45,Shower Curtain,Home,1,24.99,C076,S002,South
+2025-09-28 08:19:01,Bath Towels,Home,4,29.99,C077,S002,South
+2025-09-28 08:19:15,Hand Towels,Home,6,14.99,C078,S003,East
+2025-09-28 08:19:32,Toilet Paper,Home,12,1.99,C079,S003,East
+2025-09-28 08:19:45,Shampoo,Health,2,12.99,C080,S004,West
+2025-09-28 08:20:01,Conditioner,Health,2,12.99,C081,S004,West
+2025-09-28 08:20:15,Body Wash,Health,3,9.99,C082,S005,North
+2025-09-28 08:20:32,Toothbrush,Health,4,4.99,C083,S005,North
+2025-09-28 08:20:45,Toothpaste,Health,3,5.99,C084,S006,South
+2025-09-28 08:21:01,Mouthwash,Health,2,7.99,C085,S006,South
+2025-09-28 08:21:15,Face Cream,Health,1,24.99,C086,S007,East
+2025-09-28 08:21:32,Sunscreen,Health,2,19.99,C087,S007,East
+2025-09-28 08:21:45,Vitamins,Health,1,29.99,C088,S008,West
+2025-09-28 08:22:01,Protein Bars,Health,12,2.99,C089,S008,West
+2025-09-28 08:22:15,Energy Drinks,Health,6,3.99,C090,S009,North
+2025-09-28 08:22:32,Sports Drink,Health,8,2.49,C091,S009,North
+2025-09-28 08:22:45,Snack Bars,Health,10,1.99,C092,S010,South
+2025-09-28 08:23:01,Trail Mix,Health,5,4.99,C093,S010,South
+2025-09-28 08:23:15,Nuts,Health,3,6.99,C094,S011,East
+2025-09-28 08:23:32,Dried Fruit,Health,4,5.99,C095,S011,East
+2025-09-28 08:23:45,Granola,Health,2,7.99,C096,S012,West
+2025-09-28 08:24:01,Cereal,Health,3,5.99,C097,S012,West
+2025-09-28 08:24:15,Milk,Health,2,3.99,C098,S001,North
+2025-09-28 08:24:32,Eggs,Health,1,4.99,C099,S001,North
+2025-09-28 08:24:45,Bread,Health,2,2.99,C100,S002,South
